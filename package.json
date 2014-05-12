@@ -1,7 +1,7 @@
 {
     "name": "WakendoButton",
     "studioName": "WakendoButton",
-    "category": "Custom Widgets",
+    "category": "Kendo Widgets",
     "iconPath": "/icons/widget.png",
     "author": "Alexis Coudeyras",
     "contributors": [
