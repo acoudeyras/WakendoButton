@@ -1,7 +1,7 @@
-WAF.define('KendoButton', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+WAF.define('WakendoButton', ['waf-core/widget', 'wakendoCore'], function(widget, $) {
 	'use strict';
 		
-    var KendoButton = widget.create('KendoButton', {
+    var KendoButton = widget.create('WakendoButton', {
     	   	
     	primary: widget.property({
     		type: 'boolean',
