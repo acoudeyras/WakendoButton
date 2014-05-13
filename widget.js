@@ -61,9 +61,9 @@ WAF.define('WakendoButton', ['waf-core/widget', 'wakendoCore'], function(widget,
         init: function() {
         	var self = this;
 			
-			self.primary.onChange(self.render);
-			self.text.onChange(self.render);
-			self.icon.onChange(self.render);
+		self.primary.onChange(self.render);
+		self.text.onChange(self.render);
+		self.icon.onChange(self.render);
         	
         	self.render();
         },
@@ -93,11 +93,11 @@ WAF.define('WakendoButton', ['waf-core/widget', 'wakendoCore'], function(widget,
         },
 
         enable: function() {
-        	self.kendoWidget.enable();
+        	this.kendoWidget.enable();
         },
 
         disable: function() {
-        	self.kendoWidget.enable(false);
+        	this.kendoWidget.enable(false);
         }
 
     });
