@@ -89,7 +89,7 @@ WAF.define('WakendoButton', ['waf-core/widget', 'wakendoCore'], function(widget,
 			}
 			
         	var $el = $(self.node);
-            $el.kendoButton(options);
+		$el.kendoButton(options);
         },
 
         enable: function() {
